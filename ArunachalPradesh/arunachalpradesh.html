@@ -1,0 +1,285 @@
+<?php include('C:\xampp\htdocs\WT\server2.php'); ?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../styles.css">
+		<link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Homemade Apple' rel='stylesheet'>
+		<title>Arunachal Pradesh</title>
+		
+	</head>
+	<body class="bodypart">
+		<body class="bodypart">
+		<ul class="statusboxul">
+ 	<?php
+    if(isset($_SESSION['success']))
+    {
+  ?>
+  <li class="statusboxli"><a href="../after_login_homepage.php">HOME</a></li>
+  <li class="statusboxli"><a href="../after_login_homepage.php#dest">DESTINATION</a></li>
+  <?php
+    } else {
+  ?>
+   <li class="statusboxli"><a href="../mainhomepage.php">HOME</a></li>
+  <li class="statusboxli"><a href="../mainhomepage.php#dest">DESTINATION</a></li>
+  <?php
+}
+?>
+  <?php
+    if(isset($_SESSION['success']))
+    {
+  ?>
+  <li class="statusboxli"><a href="../iterinary.php">ITERINARY</a></li>
+   <li class="statusboxli"><a href="../saved.php">YOUR ITERINARIES</a></li>
+  <li style="float:right" class="statusboxli"><a href="../mainhomepage.php?logout='1'">LOGOUT</a></li>
+  <?php
+    } else {
+  ?>
+   <li style="float:right" class="statusboxli"><a href="../login.php">LOGIN</a></li>
+   <?php
+    }
+   ?>
+ </ul>
+</div>
+		<br>
+		<div class="name" class="name">Arunachal Pradesh
+		<p>--- Land of the Dawn-Lit Mountains ---<p>
+		</div>
+		<br>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+			<div class="numbertext">1 / 3</div>
+  			<img src="ss141.jpg" style="width:100%">
+ 			</div>
+			<div class="mySlides fade">
+ 			<div class="numbertext">2 / 3</div>
+  			<img src="ss142.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+  			<div class="numbertext">3 / 3</div>
+  			<img src="ss143.jpg" style="width:100%">
+			</div>
+		</div>
+		<br>
+		<div style="text-align:center">
+  		<span class="dot"></span>
+  		<span class="dot"></span>
+  		<span class="dot"></span>
+		</div>
+		<br>
+
+		<div class="name">About... </div>
+		<hr/>
+		<div class="pdheader"
+		<p class="explain" style="font-size:24px;font-family:comic sans ms">Home to picturesque mountains, unexplored passes, tranquil lakes and famous monasteries, Arunachal Pradesh is an amazing destination for an amazing holiday. Arunachal Pradesh is the perfect state for you if you wish to explore the tribal culture and the simplicity of their exquisite beauty. Its amazing array of flora and fauna, in a unique habitat with glaciers, high altitude meadows and sub-tropical forests add to the charm of the beautiful state.
+
+Arunachal Pradesh, bordered on the south by Assam, on the west by Bhutan, on the north and northeast by China, and on the east by Myanmar is also known as the Orchid State of India or the Paradise of the Botanists. More than 500 species of birds have been recorded to be found in this state, many of which are highly endangered and restricted to this state. Most of Arunachal Pradesh is mountainous which look serene during winters when snowfall covers their peaks while flora and fauna make the state a peaceful state to be in. The crafty, traditional people of the state with a smile on their rigid faces welcome one and all with love and warmth.</p>
+	</div>
+		<br>
+		<div class="places1">
+			<div class="name">Must visits... </div>
+			<hr/>
+			<br>
+			<br>
+			<div class="row">
+			<div class="column">
+			<a href="#one">
+			<div class="container">
+	  		<img src="taw.jpg" class="image"/>
+  			<div class="overlay">
+    			<div class="text">Tawang</div>
+  			</div>
+			</div>
+			</a>
+			</div>
+			<div class="column">
+			<div class="container">
+			<a href="#two">
+	  		<img src="ita.jpg" class="image">
+  			<div class="overlay">
+    			<div class="text">Itanagar</div>
+  			</div>
+			</div>
+			</a>
+			</div>
+			<div class="column">
+			<div class="container">
+			<a href="#three">
+	  		<img src="zir.jpg" class="image">
+  			<div class="overlay">
+    			<div class="text">Ziro</div>
+  			</div>
+			</div>
+			</a>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column">
+			<div class="container">
+			<a href="#four">
+	  		<img src="bom.jpg" class="image">
+  			<div class="overlay">
+    			<div class="text">Bomdila</div>
+  			</div>
+			</div>
+			</a>
+			</div>
+			<div class="column">
+			<div class="container">
+			<a href="#five">
+	  		<img src="bha.jpg" class="image">
+  			<div class="overlay">
+    			<div class="text">Bhalukpong</div>
+  			</div>
+			</div>
+			</a>
+			</div>
+			<div class="column">
+			<div class="container">
+			<a href="#six">
+	  		<img src="ani.jpg" class="image">
+  			<div class="overlay">
+    			<div class="text">Anini</div>
+  			</div>
+			</div>
+			</a>
+			</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="name">Explore... </div>
+		<hr/>
+		<br>
+		<center><div class="row1">
+			<div class="column1">
+			<a href="#food">
+			<div class="container1">
+	  		<img src="cui.jpg" style="border-radius:50%" class="image1"/>
+  			<div class="overlay1">
+    			<div class="text1">Cuisine</div>
+  			</div>
+			</div>
+			</a>
+			</div>
+			<div class="column1">
+			<a href="#culture">
+			<div class="container1">
+	  		<img src="cul.jpg" style="border-radius:50%" class="image1"/>
+  			<div class="overlay1">
+    			<div class="text1">Culture</div>
+  			</div>
+			</div>
+			</a>
+			</div>
+			<div class="column1">
+			<a href="#floraandfauna">
+			<div class="container1">
+	  		<img src="flo.jpg" style="border-radius:50%" class="image1"/>
+  			<div class="overlay1">
+    			<div class="text1">Flora & Fauna</div>
+  			</div>
+			</div>
+			</a>
+			</div>
+		</div></center>
+		<br>
+		<div class="name" id="one">Tawang... </div>
+		<hr/>
+		<div class="pdheader">
+		<p class="explain">Located at a height of about 3048m, is known for many important and beautiful monasteries and is famous as the birth place of Dalai Lama.
+
+The beautiful town of Tawang, also pronounced as Dawang has many sceneries to make your trip a picturesque one. However, what begins to define the area is its significance for Buddhist monks. Tawang is the place to go for monasteries, with the Tawang Monastery being the most popular one and extremely sacred for the Buddhists. Tawang is a place which will flatter you with its natural beauty wrapped in the scent of spirituality. The beautiful orchid sanctuary and the Tipi Orchid Sanctuary is also an ideal place for your list of places to visit. Along with this one can have their taste buds to have an experience of Tawang by indulging into the area's unique cuisine</p>
+	</div>
+		<div class="name" id="two">Itanagar... </div>
+		<hr/>
+		<div class="pdheader">
+		<p class="explain">With the snow capped Himalayas towering on the northern end and the fertile Brahmaputra river plains on the southern, Itanagar is a natural paradise.
+
+Recently opened to tourists by the government, the heritage and tribal culture of the city, which is decades and centuries old, is still intact. The 15th century Ita-Fort, legendary Ganga Lake which is locally known as Gyakar Sinyi and the Buddha Vihar, consecrated by Dalai Lama are among the most important attractions here. The amicable weather throughout the year makes it a tourist's delight. The town of Yupia shares it's attractions with Itanagar. Hence, the two can be covered simultaneously</p>
+	</div>
+		<div class="name" id="three">Ziro... </div>
+		<hr/>
+		<div class="pdheader">
+		<p class="explain">The cradle to a unique tribal group and a balmy climate, Ziro is the peace seeker's paradise. Ziro is a quaint old town in Arunachal Pradesh, home to the Apa Tani tribe and famous for its pine hills and rice fields.
+
+Ziro is a quaint old town in Arunachal Pradesh, home to the Apa Tani tribe and famous for its pine hills and rice fields. The climate in Ziro is mild through the year, making it comfortable to travel all year round.</p>
+
+</div>
+		<div class="name" id="four">Bomdila... </div>
+		<hr/>
+		<div class="pdheader">
+		<p class="explain">With majestic Himalayas bestowing their shadow, the beautiful town of Bomdila will offer you all an area in this terrain should.
+
+Other than sceneries and views making the area a visual treat for the eyes, wrapped around in a cool breeze and pleasant climate, the area will offer you a number of spots such as temples and wildlife sanctuaries. Both Buddhist and Hindu temples are to be found here. Some of the other places to be visited include a number apple orchards and The Eagle Nest Wildlife Sanctuary, which is just a little away. The visitors can also indulge into the arts and crafts popular in the area, as well as trekking and hiking complimented by the terrain. The proximity to the Himalayas can offer sights capable of casting spells on the viewer.</p>
+
+</div>
+		<div class="name" id="five">Bhalukpong... </div>
+		<hr/>
+		<div class="pdheader">
+		<p class="explain">Apart from being the nature lover's paradise, Bhalukpong can provide you a complete experience with wildlife and a host of activities complimenting its natural beauty and the environment of a place lesser known
+
+The Kameng River running in the forest surrounding it makes the town even more attractive. In Bhalukpong you'll find yourself making the most of hiking, trekking, camping and fishing. The Pakhui game sanctuary can be visited to see birds as exotic as the place itself, along with tigers, elephants, barking dear and more.</p>
+
+</div>
+		<div class="name" id="six">Anini... </div>
+		<hr/>
+<div class="pdheader">
+		<p class="explain">Anini is where the clouds come down the kiss the land. With much of its beauty peeking from behind the misty air, this unexplored town is the place to visit for pristine calmness.
+
+Lying in the beautiful Dibang Valley district, Anini is marked by pleasant weather and immense natural beauty, making it a tourist's paradise, appearing from the clouds. Its silence, beauty and magic is almost untouched and can relax you to the very core. A popular tourist spot nearby is the Mehao Wildlife Sanctuary. While in Anini, one may want to visit the tribal villages here and experience their subtle heritage and colourful cultures. Some of the tribal villages here are New Anaya, Hunli, Ranli and a few more.</p>
+
+	</div>
+		<br>
+		<div class="name" id="food">Cuisine... </div>
+		<hr/>
+<div class="pdheader">
+		<p class="explain">The dishes typical of Arunachal Pradesh vary within the region, including according to tribal influence (with the influence of Apatanis, Chuki, adi and Nishi)
+
+Apong or rice beer made from fermented rice or millet is a popular beverage in Arunachal Pradesh, as an alcoholic drink. There are different varieties of rice beer with different flavours. Thukpa is another traditional dish common among "Monpa" a tribe of Arunachal.
+
+The staple food is rice along with fish, meat and many green vegetables. Different varieties of rice are available. Lettuce is the most common and preferred vegetable of all, prepared by boiling it with ginger, coriander and green chillies and pinch of salt. Boiled rice cakes wrapped in leaves is a famous snack.
+
+The momos are also popular. Dishes in eastern districts like Tirap and Changlang have some different method in their way of food preparation.
+
+A lot of wild herbs and shrubs are also part of the cuisine. Dried bamboo shoots are used extensively in cooking.
+
+Prior to Indian Independence when British policy to isolate the Hill people NEFA were in effect, wild birds and animals were big part of their diet but Modern restrictions on hunting has made those non existent. 
+
+</p>
+
+	</div>
+		<br>
+		<div class="name" id="culture">Culture... </div>
+		<hr/>
+<div class="pdheader">
+		<p class="explain">The culture of Arunachal Pradesh is truly varied in the sense that the state has 26 major tribes including sub-tribes. Every tribe has their own unique set of traditions and customs. The major tribes of Arunachal are: Adi, Galo, Aka, Apatani, Nyishi, Tagins, Bori, and Bokar etc.
+
+The sun and the moon are the presiding deities of the major tribes who follow the Donyi-Polo religion (the name stands for sun and moon). The West Kameng and Tawang district are mainly inhabited by the Tibetan influenced Monpa and Sherdukpen tribe. In Lohit district it is the Khampti and the Singpho tribe. All these four major tribes are followers of two different sects of Buddhism (Mahayana Hinayana). The other tribes are basically followers of ancient beliefs with animal worship being quite prominent amongst them.
+
+</p>
+
+	</div>
+		<br>
+		<div class="name" id="floraandfauna">Flora & Fauna... </div>
+		<hr/>
+<div class="pdheader">
+		<p class="explain">In Arunachal’s rich and colourful flora and fauna orchids find a place of pride. Out of about a thousand species of orchids in India, over 500 are to be found in Arunachal Pradesh alone. These are colourful, spectacular and some bear exotic names such as Sita-Pushpa and Draupadi-Pushpa which were believed to have been worn by Sita and Draupadi for ornamentation.
+
+Some of the orchids are rare and classified as endangered. Arunachal Pradesh Forest Development Corporation has established an Orchid Research and Development Station at Tippi in West Kameng district for propagation and conservation of these species. This centre has established a laboratory for orchids seed and tissue culture for this purpose. .The wildlife of Arunachal is equally rich and varied. Elephants and tigers abound, especially in the grassy foothills and the leopard and jungle cat are quite common. The white browed gibbon is found in Tirap and Lohit districts and red pandas and musk deer in the higher ranges.
+
+
+	</div>
+		<br>
+		<script type="text/javascript" src="../script.js"></script>
+
+<div class="bottom" style="background-color:black">
+			<br>
+			<center><h2 style="color:white;">"Corners of India"</h2>
+			<p style="font-size: 17px; color:white;"> Explore and plan your trip with us 
+			 <br>Email: cornersofindia@gmail.com 
+			 <br>Ph:080-22233389 </p></center>
+			 <br>
+		</div>
+	</body>
+</html>
